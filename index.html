@@ -15,7 +15,7 @@
 <body>
   <header>
     <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn"> &#9776 Menu</button>           
+      <button onclick="myFunction()" class="dropbtn"> &#9776</button>           
       <div id="drop" class="dropdown-content">
         <div class="show">
           <a href="#">Sobre</a>        
@@ -46,15 +46,17 @@
       <!-- formulário -->
       <div id="forms" class="forms">
         <form method="post">
-        <p>INSCREVA-SE AGORA!</p>
-
+          <div class="texto-forms">
+            <p>INSCREVA-SE AGORA!</p>
+          </div>
         <fieldset>
           <input type="text" class="form-control" aria-label="nome" placeholder="Nome">
           <input type="e-mail" class="form-control" aria-label="email" placeholder="name@example.com">
           <input type="text" class="form-control" aria-label="empresa" placeholder="Empresa">
           <input type="number" class="form-control" aria-label="telefone" placeholder="Telefone">
         </fieldset>
-        <button>
+
+        <button class="botao-enviar">
           SE INSCREVA!
         </button>
       </form>

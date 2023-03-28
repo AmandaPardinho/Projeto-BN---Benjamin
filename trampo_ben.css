@@ -1,15 +1,19 @@
+
+
 .logo1{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 10%;
-
+    margin-top: 0%;
+    margin-left: 4rem;
+    width: 15rem;
+    margin-bottom: 2rem;
 }
 
 
 
 .dropbtn {
-    font-size: 16px;
+    font-size: 40px;
     border: none;
     color: #5F328C;
     padding: 16px;
@@ -21,8 +25,8 @@
   .dropdown{
     position: absolute;
     display: block;
-    margin-left: 70%;
-    margin-top: 10%;
+    margin-left: 0%;
+    margin-top: 0%;
     
   }
 
@@ -48,8 +52,37 @@
     border-style: solid;
     border-width: 2px;
     padding: 2rem;
+    margin-top: 2rem;
+    justify-content: center;
   }
 
   .form-control{
     display: flex;
+    margin: 1rem;
+    width: 271px;
+    height: 45px;
+    font-size: 20px;
+    padding-left: 20px;
+
   }
+
+  .texto-forms{
+    text-align: center;
+    color: #64477B;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .botao-enviar{
+    position: relative;
+    left: 71px;
+    border-radius: 20px;
+    width: 188px;
+    height: 48px;
+    background-color: #5cbab3;
+    color: #5F328C;
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+  
