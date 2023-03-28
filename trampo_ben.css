@@ -304,7 +304,12 @@
 
 .boxempresas{
   text-align: center;
-  
+
+}
+
+.container-linha1, .container-linha2, .container-linha3{
+  size: 30%;
+
 }
 
 /* carrossel das empresas */
