@@ -595,4 +595,5 @@ body{
   border-radius: 1rem;
   border: none;
   padding: 0.5rem;
+  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
 }
