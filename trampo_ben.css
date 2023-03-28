@@ -392,14 +392,22 @@
 
 .fundo-footer{
   background-color: #4cfbb4;
-  border-radius: 2rem;
+  border-radius: 3rem 3rem 0 0;
+  padding: 0rem 8rem 5rem 8rem;
 }
 
 .container-frase-footer{
-  margin-top: 4rem;
+  margin-top: 67%;
+  margin-left: -100%;
   padding: 1rem;
+  width: 20rem;
   text-align: center;
-  font-size: 0.85rem;
+  font-family: 'Roboto';
+  font-size: 0.8rem;
+}
+
+.container-frase-footer strong{
+  font-weight: bold;
 }
 
 .container-logo-abreviado{
@@ -408,6 +416,47 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
+  margin-left: -18%;
+}
+
+.container-menuL{
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: #642c93;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 0.7rem;
+  padding: 2rem;
+  margin-top: -30%;
+  margin-left: -35%;
+}
+
+.container-menuD{
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: #642c93;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 0.7rem;
+  padding: 1rem;
+  margin-top: -26%;
+  margin-left: 26%;
+}
+
+.container-razao-social{
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: #642c93;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 0.6rem;
+  padding: 1rem;
+  margin-top: 3%;
+  margin-left: -35%;
 }
 
 /* SECTION - empresas */
