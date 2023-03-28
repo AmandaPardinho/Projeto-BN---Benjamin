@@ -523,36 +523,52 @@
 
 
 /*FORMULÁRIO 2*/
+.forms-final{
+  border: none;
+  margin: 3rem;
+}
 
 .texto-pt1{
-  font-weight: bold;
   font-family: 'Roboto';
   font-size: 1.25rem;
+  margin-top: -7%;
+  margin-bottom: -4%;
+}
+
+.b{
+  font-weight: bold;
+  color: #642c93;
+}
+
+.n{
+  font-weight: bold;
+  color: #9df6c4;
 }
 
 .texto-pt2{
   font-family: 'Roboto';
   font-size: 0.8rem;
+  margin-bottom: -4%;
 }
 
 .container-txt{
   display: flex;
   flex-direction: column;
   position: relative;
-  height: 20rem;
+  height: 7rem;
 }
 
 .txt-roxo{
   display: block;
   position: absolute;
+  top: 7%;
 }
 
 .txt-roxo input{
-  left: -21%;
   margin-top: 7%;
-  width: 271px;
-  height: 45px;
-  font-size: 20px;
+  width: 40%;
+  height: 20px;
+  font-size: 1rem;
   padding-left: 20px;
   border-color: #642c93;
   border-radius: 5px;
@@ -561,16 +577,28 @@
 .txt-verde{
   display: block;
   position: absolute; 
-  top: 47%; 
+  top: 7%; 
 }
 
 .txt-verde input{
-  left: 40%;
   margin-top: 7%;
-  width: 271px;
-  height: 45px;
-  font-size: 20px;
+  width: 40%;
+  height: 20px;
+  font-size: 1rem;
   padding-left: 20px;
   border-color: #9df6c4;
   border-radius: 5px;
+  margin-left: 56%;
+}
+
+.btn-inscrever{
+  background-color: #9df6c4;
+  color: #642c93;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 27%;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
 }
