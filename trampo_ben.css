@@ -17,7 +17,7 @@
     border: none;
     color: #5F328C;
     padding: 16px;
-    background-color: #cacaca;
+    background-color: white;
     font-family: inherit;
     text-decoration: none;
   }
@@ -63,7 +63,8 @@
     height: 45px;
     font-size: 20px;
     padding-left: 20px;
-
+    border-radius: 5px;
+    border-color: #9df6c4;
   }
 
   .texto-forms{
@@ -85,4 +86,126 @@
     font-size: 21px;
   }
 
-  
+  .slogan{
+    text-align: center;
+    color: #5F328A;
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .video{
+    text-align: center;
+    margin: 4rem;
+  }
+
+  .carrossel-topicos{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    width: 100%;
+    height: 24rem;
+    padding: 0rem;
+    background-color: #89FBBB;
+  }
+
+  .topicos-escolha{
+    margin-top: 22px;
+    text-align: center;
+    color: #5F328C;
+    font-weight: 300;
+  }
+
+  .container-resultados{
+    background-color: #5F328C;
+  }
+
+  .container-frase-resultados{
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .linha{
+    color: #4D2674;
+    width: 105px;
+  }
+
+  .porcentagem-resultados{
+    background-color: #4D2674;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 17px;
+    width: 17rem;
+    /* display: flex; */
+    margin: 2rem;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  .container-clicks-e-downloads, .container-downloads, .container-redirecionamento-e-parceiros, .container-portais-e-recursos{
+    display: flex;
+  }
+
+  .frase-final-resultados{
+    text-align: center;
+  }
+
+  .formNewsletter{
+    text-align: center;
+  }
+
+  .frase-final-resultados{
+    margin-top: 2rem;
+  }
+
+  .form-control-2{
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    width: 252px;
+    height: 27px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .button-assine{
+    background-color: #5CBAB1;
+    width: 96px;
+    height: 22px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 27px;
+  }
+
+  .assine-nossa-nl{
+    margin-bottom: 9px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 200;
+  }
+
+  .numeros-resultados{
+    color: #9df6c4;
+    font-weight: 900;
+    font-size: 36px;
+    padding-right: 1px;
+  }
+
+  .descrição-resultados{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 900;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
