@@ -6,6 +6,8 @@
 
 }
 
+
+
 .dropbtn {
     font-size: 16px;
     border: none;
@@ -39,4 +41,15 @@
   .show{
     display: block;
     overflow: auto;
+  }
+
+  .forms{
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2rem;
+  }
+
+  .form-control{
+    display: flex;
   }
