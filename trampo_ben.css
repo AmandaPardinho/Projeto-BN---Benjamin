@@ -1,15 +1,19 @@
+
+
 .logo1{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: 10%;
-
+    margin-top: 0%;
+    margin-left: 4rem;
+    width: 15rem;
+    margin-bottom: 2rem;
 }
 
 
 
 .dropbtn {
-    font-size: 16px;
+    font-size: 40px;
     border: none;
     color: #5F328C;
     padding: 16px;
@@ -21,8 +25,8 @@
   .dropdown{
     position: absolute;
     display: block;
-    margin-left: 70%;
-    margin-top: 10%;
+    margin-left: 0%;
+    margin-top: 0%;
     
   }
 
@@ -64,6 +68,9 @@
 
   .texto-forms{
     text-align: center;
+    color: #64477B;
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .botao-enviar{
