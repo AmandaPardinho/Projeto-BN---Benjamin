@@ -6,12 +6,16 @@
     flex-direction: column;
     position: relative;
     margin-top: 0%;
-    margin-left: 4rem;
+    margin-left: 4.7rem;
     width: 15rem;
     margin-bottom: 2rem;
 }
 
-
+.content-inicial{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1.5), rgba(255,255,255,0)), url(imgs/mundodigital.svg);
+		background-size: cover;
+    /* background-image: url(imgs/mundodigital.svg); */
+} 
 
 .dropbtn {
     font-size: 40px;
@@ -97,6 +101,7 @@
   .video{
     text-align: center;
     margin: 4rem;
+    margin-left: 2%;
   }
 
   .carrossel-topicos{
@@ -129,6 +134,7 @@
   .nossos-resultados{
     font-weight: bold;
     color: #ffffff;
+    font-style: italic;
   }
 
   .container-resultados{
@@ -255,6 +261,7 @@
   .um-app{
     font-size: 32px;
     color: #ffffff;
+    font-style: italic;
   }
 
 
