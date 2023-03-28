@@ -12,50 +12,36 @@
 </head>
 
 <body>
-
   <header>
-
-    <div class="container"><img src="#" alt=""></div>
-
-    <!-- início da nav bar -->
-
-    
-
-    <div>
-      <a class="azinho" href="#home">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn"> &#9776 Menu</button>           
+      <div id="drop" class="dropdown-content">
+        <div class="show">
+          <a href="#">Sobre</a>        
+          <a href="#">Fale Conosco</a>
+          <a href="#">Login</a>
+          <a href="#">Download</a>
+          <a href="#">Política de Privacidade</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-logo">
+      <a href="#home">
         <img class="logo1" src="imgs/title.svg" alt="logo business news">
       </a>
     </div>
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn"> &#9776 Menu</button>           
-        <div id="drop" class="dropdown-content">
-            <div class="show">
-                <a href="#">Sobre</a>        
-                <a href="#">Fale Conosco</a>
-                <a href="#">Login</a>
-                <a href="#">Download</a>
-                <a href="#">Política de Privacidade</a>
-            </div>
-        </div>
-    </div>    
-
-    <!-- fim da nav bar-->
-
-    <div class="header">
-
-    </div>
-  </nav>
   </header>
-
   <main>
-  <div class="content">
-  
-   <section class="home">
-      <div class="slogan">
-        <h1>lead your <strong>business</strong> everyday<br> 
-        read the <strong>world</strong> today.</h1>
-      </div>
-      
+    <div class="content-inicial">  
+      <section class="home">
+        <div class="slogan">
+          <h1>Lead your <strong>business</strong> everyday<br> read the <strong>world</strong> today.</h1>
+        </div>
+        <div class="video">
+          <a href="https://video.wixstatic.com/video/09c2ff_c0c01c2939c94d1db06de1b998c7c0a6/720p/mp4/file.mp4">Vídeo</a>
+        </div>  
+      </section>
+    </div>
       <!-- formulário -->
       <p>inscreva-se agora!</p>
       
@@ -71,39 +57,38 @@
         se inscreva!
       </button>
     </form>
-     
-      <!-- fim do formulário -->
 
-    <!-- vídeo da landing page-->
-
-      <video>
-        tba
-      </video>
-     
-    <!-- fim do vídeo da landing page-->
-     
-    </section>
-
-   <section class="featuresbolinhas">
-      <div class="features">
-        <h3 class="nuncaperca">NUNCA PERCA UMA NOTÍCIA!</h3>
-        <hr class="linha" width="40px">
-        <h2 class="suaempresanocomando">sua empresa no comando das <br>últimas tendências do <br>mercado!</h2>
-        
-        <div class="caixabolinhas">
-          <ul class="bolinhas">
-          
-            <div class="bolinha1">
-              <li><img src="/imgs/vantagemcomp.svg" alt="bolinha"></li>
-                <li class="titulobolinha"><p><strong>Vantagem Competitiva</strong></p></li>
-                <li class="textobolinha"><p>aos que têm acesso à esta ferramenta poderosa em mãos.</p></li>
-            </div>
-          
-            <div class="bolinha2">
-              <li><img src="/imgs/interesses.svg" alt="bolinha"></li>
-               <li class="titulobolinha"><p><strong>Interesses</strong></p></li>
-               <li class="textobolinha"><p>fique à vontade de selecionar todos os seus interesses!</p></li>
-            </div>
+    <section class="impacto-pos-form">
+      <div class="frase-impacto">
+        <h3 class="chamada-impacto1">NUNCA PERCA UMA NOTÍCIA!</h3>
+        <hr class="linha">
+        <h2 class="chamada-impacto2">Sua empresa no comando das <br>últimas tendências do <br>mercado!</h2>
+      </div>  
+      <div class="container-infos">
+        <div class="vantagens"></div>
+          <ul class="item1">
+            <li class="simbolo-vantagem">
+              <img src="/imgs/vantagemcomp.svg" alt="bolinha">
+            </li>
+            <li class="titulo-vantagem">
+              <p><strong>Vantagem Competitiva</strong></p>
+            </li>
+            <li class="conteudo-vantagem">
+              <p>aos que têm acesso à esta ferramenta poderosa em mãos.</p>
+            </li>
+          </ul>  
+        </div>
+        <div class="bolinha2">
+          <ul>    
+            <li>
+              <img src="/imgs/interesses.svg" alt="bolinha">
+            </li>
+            <li class="titulobolinha">
+              <p><strong>Interesses</strong></p>
+            </li>
+            <li class="textobolinha"><p>fique à vontade de selecionar todos os seus interesses!</p></li>
+          </ul>     
+        </div>
 
             <div class="bolinha3">
              <li><img src="/imgs/saibaantes.svg" alt="bolinha"></li>
