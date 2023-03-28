@@ -11,6 +11,11 @@
     margin-bottom: 2rem;
 }
 
+.business{
+    font-weight: bold;
+    font-style: italic;
+}
+
 .content-inicial{
     background-image: linear-gradient(to bottom, rgba(255,255,255,1.5), rgba(255,255,255,0)), url(imgs/mundodigital.svg);
 		background-size: cover;
@@ -54,8 +59,6 @@
 
   .forms{
     display: flex;
-    border-style: solid;
-    border-width: 2px;
     padding: 2rem;
     margin-top: 2rem;
     justify-content: center;
@@ -74,7 +77,7 @@
 
   .texto-forms{
     text-align: center;
-    color: #64477B;
+    color: #5F328C;
     font-size: 20px;
     font-weight: 600;
   }
@@ -89,6 +92,8 @@
     color: #5F328C;
     font-weight: 600;
     font-size: 21px;
+    border-style: solid;
+    border-color: #5cbab3;
   }
 
   .slogan{
