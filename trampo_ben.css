@@ -100,9 +100,9 @@
   }
 
   .carrossel-topicos{
-    border-style: solid;
+    /* border-style: solid;
     border-width: 2px;
-    border-color: red;
+    border-color: red; */
     width: 100%;
     height: 24rem;
     padding: 0rem;
@@ -114,6 +114,21 @@
     text-align: center;
     color: #5F328C;
     font-weight: 300;
+    padding-top: 21px;
+    font-size: 32px;
+  }
+
+  .sua-escolha-b{
+    font-weight: bold;
+  }
+
+  .veja{
+    color: #89FBBB;
+  }
+
+  .nossos-resultados{
+    font-weight: bold;
+    color: #ffffff;
   }
 
   .container-resultados{
@@ -142,6 +157,7 @@
     border-radius: 5px;
     padding: 1rem;
     padding-top: 1px;
+    margin-top: 15px;
   }
 
   .container-clicks-e-downloads, .container-downloads, .container-redirecionamento-e-parceiros, .container-portais-e-recursos{
@@ -150,7 +166,7 @@
   }
 
   .clicks, .redirecionamento, .portais{
-    padding-right: 20px;
+    padding-right: 25px;
   }
 
   .clicks{
@@ -159,6 +175,10 @@
 
   .frase-final-resultados{
     text-align: center;
+  }
+
+  .portais{
+    padding-right: 35px;
   }
 
   .formNewsletter{
@@ -225,6 +245,11 @@
   .frase-importante-resultados{
     color: #9df6c4;
     font-size: 23px;
+    font-weight: 100;
+  }
+
+  .newsletter{
+    color: #9df6c4;
   }
 
   .um-app{
