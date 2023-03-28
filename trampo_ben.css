@@ -125,26 +125,36 @@
     padding-top: 1rem;
   }
 
-  .linha{
-    color: #4D2674;
+  .linha-0{
+    border-color: #4D2674;
     width: 105px;
   }
 
   .porcentagem-resultados{
     background-color: #4D2674;
-    border-color: red;
+    /* border-color: red;
     border-style: solid;
-    border-width: 2px;
+    border-width: 2px; */
     margin-top: 17px;
     width: 17rem;
     /* display: flex; */
     margin: 2rem;
     border-radius: 5px;
     padding: 1rem;
+    padding-top: 1px;
   }
 
   .container-clicks-e-downloads, .container-downloads, .container-redirecionamento-e-parceiros, .container-portais-e-recursos{
     display: flex;
+    margin-top: 20px;
+  }
+
+  .clicks, .redirecionamento, .portais{
+    padding-right: 20px;
+  }
+
+  .clicks{
+    padding-right: 46px;
   }
 
   .frase-final-resultados{
@@ -172,10 +182,13 @@
   .button-assine{
     background-color: #5CBAB1;
     width: 96px;
-    height: 22px;
-    border-radius: 10px;
+    height: 26px;
+    border-radius: 14px;
     margin-top: 5px;
     margin-bottom: 27px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5F328C;
   }
 
   .assine-nossa-nl{
@@ -199,6 +212,25 @@
     font-weight: 900;
   }
 
+  .tudo-isso{
+    color: #9df6c4;
+  }
+
+  .frase-impacto-resultados{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .frase-importante-resultados{
+    color: #9df6c4;
+    font-size: 23px;
+  }
+
+  .um-app{
+    font-size: 32px;
+    color: #ffffff;
+  }
 
 
 
