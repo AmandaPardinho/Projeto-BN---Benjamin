@@ -597,3 +597,23 @@ body{
   padding: 0.5rem;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
 }
+/*FIM FORMULÁRIO 2*/
+
+/*INÍCIO BAIXAR-APP*/
+
+.baixe-app{  
+  background-color: #642c93;
+  height: 15rem;
+}
+
+.iphone{
+  width: 5rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: solid;
+  padding: 1rem;
+  margin-left: 10%;
+  margin-top:5%;
+}
