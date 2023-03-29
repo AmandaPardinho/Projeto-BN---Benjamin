@@ -1,5 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* FONTES - principal */
+
+  .italic{
+    font-style: italic;
+  }
+
+  .purple{
+    color: #5F328C;
+  }
+
+  /* Thin 100 */
+  .thin100{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  /* Light 300 */
+  .light300{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 9px;
+  }
+
+  /* Medium 200 */
+  .medium200{
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  /* Regular 400 */
+  .regular400{
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  /* Medium 500 */
+  .medium500{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #5F328A;
+  }
+
+  /* Bold 700 */
+  .bold700{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+    text-align: center;
+  }
+
+  /* Black 900 */
+
+/* página */
+
 body{
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Roboto', 'sans-serif';
+  
+}
+
+header{
+  position: fixed;
+  margin-top: -120px;
+}
+
+main{
+  margin-top: 120px;
 }
 
 .logo1{
@@ -18,7 +99,7 @@ body{
 }
 
 .content-inicial{
-    background-image: linear-gradient(to bottom, rgba(255,255,255,1.5), rgba(255,255,255,0)), url(imgs/mundodigital.svg);
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1.5), rgba(157, 36, 161, 0.509)), url(imgs/mundodigital.svg);
 		background-size: cover;
     /* background-image: url(imgs/mundodigital.svg); */
 } 
@@ -38,23 +119,28 @@ body{
     display: block;
     margin-left: 0%;
     margin-top: 0%; 
+    width: 375px;
+    background-color: #FFF;
   }
 
   .dropdown-content{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #cacaca;
+    background-color: #FFF;
     color: #fff;
-    min-width: 160px;
+    min-width: 375px;
     max-height: 500px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 16px;
   }
 
   .show{
     display: block;
     overflow: auto;
+  }
+
+  #forms{
+    margin-top: -50px;
   }
 
   .forms{
@@ -83,7 +169,7 @@ body{
   }
 
   .botao-enviar{
-    position: relative;
+    margin-left: 65px;
     left: 71px;
     border-radius: 20px;
     width: 188px;
@@ -94,13 +180,14 @@ body{
     font-size: 21px;
     border-style: solid;
     border-color: #5cbab3;
+    box-shadow: 2px 5px 4px #1f1f1f
   }
 
   .slogan{
     text-align: center;
     color: #5F328A;
     font-size: 24px;
-    font-weight: 200;
+    margin-bottom: -30px;
   }
 
   .video{
@@ -108,6 +195,85 @@ body{
     margin: 4rem;
     margin-left: 2%;
   }
+
+/* SECTION - frase-impacto */
+
+.impacto-pos-form{
+  background-color: #fff;
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+}
+
+.chamada-impacto1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 0px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3em;
+  margin-top: 25px;
+}
+
+.linha{
+  width: 80px;
+  border-color: #89FBBB;
+}
+
+.chamada-impacto2{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+  text-align: center;
+  color: #5CBAB3;
+  margin-top: -10px;
+  margin-left: 7px;
+}
+
+.container-a, .container-b, .container-c{
+  display: flex;
+}
+
+.container-vantagens, .container-interesses, .container-saiba-antes, .container-calendario, .container-aportes, .container-entre-outros{
+  text-align: center;
+  padding: 10px;
+  width: 60px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 100%;
+}
+
+.simbolo-vantagem, .simbolo-interesses, .simbolo-saiba-antes, .simbolo-calendario, .simbolo-aporte, .simbolo-entre-outros{
+  text-align: center;
+}
+
+.conteudo-vantagem, .conteudo-interesses, .conteudo-saiba-antes, .conteudo-calendario, .conteudo-aporte, .conteudo-entre-outros{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  /* or 136% */
+  text-align: center;
+  color: #000;
+}
+
+.titulo-vantagem, .titulo-interesses, .titulo-saiba-antes, .titulo-calendario, .titulo-aporte, .titulo-entre-outros{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  /* or 136% */ 
+  text-align: center;
+  color: #5CBAB3;
+}
+
+/* FIM DA SECTION - frase-impacto */
+
+/* SECTION - frase-impacto */
 
   .carrossel-topicos{
     /* border-style: solid;
@@ -270,256 +436,81 @@ body{
   }
 
 
-
-
-
-
-
-
-
-
-
-/* SECTION - frase-impacto */
-
-.impacto-pos-form{
-  background-color: #fff;
-  display: flex;
-  height: 600px;
-  flex-direction: column;
-}
-
-.chamada-impacto1{
-  font-style: normal;
-  font-weight: 600;
-  font-size: 8px;
-  line-height: 0px;
-  /* identical to box height, or 0% */
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.3em;
-  margin-top: 20px;
-}
-
-.linha{
-  width: 80px;
-  border-color: #89FBBB;
-}
-
-.chamada-impacto2{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
-  /* or 125% */
-  display: flex;
-  text-align: center;
-  color: #5CBAB3;
-  margin-top: -10px;
-  margin-left: 53px;
-}
-
-.container-a, .container-b, .container-c{
-  display: flex;
-}
-
-.container-vantagens, .container-interesses, .container-saiba-antes, .container-calendario, .container-aportes, .container-entre-outros{
-  text-align: center;
-  padding: 10px;
-  width: 100px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex: 80%;
-}
-
-.simbolo-vantagem, .simbolo-interesses, .simbolo-saiba-antes, .simbolo-calendario, .simbolo-aporte, .simbolo-entre-outros{
-  text-align: center;
-}
-
-.conteudo-vantagem, .conteudo-interesses, .conteudo-saiba-antes, .conteudo-calendario, .conteudo-aporte, .conteudo-entre-outros{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 10px;
-  /* or 136% */
-  text-align: center;
-  color: #000;
-}
-
-.titulo-vantagem, .titulo-interesses, .titulo-saiba-antes, .titulo-calendario, .titulo-aporte, .titulo-entre-outros{
-  font-style: normal;
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 15px;
-  /* or 136% */ 
-  text-align: center;
-  color: #5CBAB3;
-}
-
-/* FIM DA SECTION - frase-impacto */
-
-
-
-/*INÍCIO FOOTER*/
-
-.container-logos{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.twitter{
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  margin-top: 6%;
-  margin-left: 5%;
-}
-
-.linkedin{
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  margin-left: 20%;
-  margin-top: 6%;
-}
-
-.logo-completo{
-  display: block;
-  position: absolute;
-  width: 8rem;
-  height: 4rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  margin-left: 30%;
-}
-
-.instagram{
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  margin-left: 70%;
-  margin-top: 6%;
-}
-
-.facebook{
-  display: block;
-  position: absolute;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  margin-left: 85%;
-  margin-top: 6%;
-}
-
-.fundo-footer{
-  background-color: #4cfbb4;
-  border-radius: 3rem 3rem 0 0;
-  padding: 0rem 8rem 5rem 8rem;
-}
-
-.container-frase-footer{
-  margin-top: 67%;
-  margin-left: -100%;
-  padding: 1rem;
-  width: 20rem;
-  text-align: center;
-  font-size: 0.8rem;
-}
-
-.container-frase-footer strong{
-  font-weight: bold;
-}
-
-.container-logo-abreviado{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10%;
-  margin-left: -18%;
-}
-
-.container-menuL{
-  display: block;
-  position: absolute;
-  text-align: center;
-  color: #642c93;
-  font-weight: bold;
-  font-size: 0.7rem;
-  padding: 2rem;
-  margin-top: -30%;
-  margin-left: -35%;
-}
-
-.container-menuD{
-  display: block;
-  position: absolute;
-  text-align: center;
-  color: #642c93;
-  font-weight: bold;
-  font-size: 0.7rem;
-  padding: 1rem;
-  margin-top: -26%;
-  margin-left: 26%;
-}
-
-.container-razao-social{
-  display: block;
-  position: absolute;
-  text-align: center;
-  color: #642c93;
-  font-weight: bold;
-  font-size: 0.6rem;
-  padding: 1rem;
-  margin-top: 3%;
-  margin-left: -35%;
-}
-/*FIM FOOTER*/
-
 /* SECTION - empresas */
 
-.frase-empresas{
-  text-align: center;
-  margin-top: 10px;
-}
+  .empresas{
+    height: 500px;
+  }
 
-.boxempresas{
-  display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
-  padding: 20px;
-  margin-top: -40px;
-}
+  .frase-empresas{
+    text-align: center;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #5CBAB3
+  }
 
-.container-linha1, .container-linha2, .container-linha3{
-  display: flex;
-  padding: 20px;
-}
+  .estaofalando{
+    margin-top: -25px;
+  }
 
-/* carrossel das empresas */
+  .boxempresas{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -30px;
+    height: 100px;
+  }
+
+  .container-linha1, .container-linha2, .container-linha3{
+    display: flex;
+    padding: 20px;
+  }
+
+  /* carrossel das empresas */
 
 
-/* fim do carrossel das empresas */
+  /* fim do carrossel das empresas */
 
 
 
 
 /* FIM DA SECTION - empresas */
 
+/*INÍCIO - quemsomos*/
+
+  .quemsomos{
+    height: 400px;
+    background-color: #9DF6C4;
+  }
 
 
+
+
+
+/* FIM DA SECTION - quemsomos*/
+
+/*INÍCIO BAIXAR-APP*/
+
+.baixe-app{  
+  background-color: #642c93;
+  height: 15rem;
+}
+
+.iphone{
+  width: 5rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1rem;
+  margin-left: 10%;
+  margin-top:5%;
+}
 
 /*FORMULÁRIO 2*/
 .forms-final{
@@ -600,23 +591,134 @@ body{
   padding: 0.5rem;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
 }
+
 /*FIM FORMULÁRIO 2*/
 
-/*INÍCIO BAIXAR-APP*/
+/*INÍCIO FOOTER*/
 
-.baixe-app{  
-  background-color: #642c93;
-  height: 15rem;
-}
-
-.iphone{
-  width: 5rem;
-  height: 10rem;
+  .container-logos{
   display: flex;
   flex-direction: column;
   position: relative;
-  border: solid;
-  padding: 1rem;
-  margin-left: 10%;
-  margin-top:5%;
-}
+  }
+
+  .twitter{
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-top: 6%;
+    margin-left: 5%;
+  }
+
+  .linkedin{
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-left: 20%;
+    margin-top: 6%;
+  }
+
+  .logo-completo{
+    display: block;
+    position: absolute;
+    width: 8rem;
+    height: 4rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-left: 30%;
+  }
+
+  .instagram{
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-left: 70%;
+    margin-top: 6%;
+  }
+
+  .facebook{
+    display: block;
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    margin-left: 85%;
+    margin-top: 6%;
+  }
+
+  .fundo-footer{
+    background-color: #9DF6C4;
+    border-radius: 3rem 3rem 0 0;
+    padding: 0rem 8rem 5rem 8rem;
+  }
+
+  .container-frase-footer{
+    margin-top: 67%;
+    margin-left: -100%;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .container-frase-footer strong{
+    font-weight: bold;
+  }
+
+  .container-logo-abreviado{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: -18%;
+  }
+
+  .container-menuL{
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: #642c93;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 2rem;
+    margin-top: -30%;
+    margin-left: -35%;
+  }
+
+  .container-menuD{
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: #642c93;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 1rem;
+    margin-top: -26%;
+    margin-left: 26%;
+  }
+
+  .container-razao-social{
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: #642c93;
+    font-weight: bold;
+    font-size: 0.6rem;
+    padding: 1rem;
+    margin-top: 3%;
+    margin-left: -35%;
+  }
+
+/*FIM FOOTER*/

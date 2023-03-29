@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Business News - lead your business everyday, read the world today.</title>
-    
-  <link rel="stylesheet" type="text/css" href="trampo_ben.css">
+  
   <link rel="stylesheet" href="reset.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" type="text/css" href="trampo_ben.css">
+
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">-->
   <!-- Bootstrap --> 
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -20,15 +21,16 @@
 </head>
 
 <body>
+
   <header>
     <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn"> &#9776</button>           
       <div id="drop" class="dropdown-content">
         <div class="show">
-          <a href="#">Sobre</a>        
-          <a href="#">Fale Conosco</a>
-          <a href="#">Login</a>
-          <a href="#">Download</a>
+          <a href="#">Sobre</a><br> 
+          <a href="#">Fale Conosco</a><br>
+          <a href="#">Login</a><br>
+          <a href="#">Download</a><br>
           <a href="#">Política de Privacidade</a>
         </div>
       </div>
@@ -39,12 +41,14 @@
       </a>
     </div>
   </header>
+
   <main>
     <div class="content-inicial">  
       <div>
       <section class="home">
         <div class="slogan">
-          <h1>Lead your <strong class="business">business</strong> everyday<br> read the <strong class="business">world</strong> today.</h1>
+          <h1 class="medium200">lead your <b class="medium500 italic">business</b> everyday,<br> 
+          <em class="thin100 italic">read the <b class="medium500"><u>world</u></b> today.</em></h1>
         </div>
         <div class="video">
           <video width="360" height="240" muted="true" loop="true" controls="controls" autoplay="autoplay">
@@ -57,21 +61,23 @@
         </div>  
       </section>
     </div>
+
       <!-- formulário -->
+
       <div id="forms" class="forms">
         <form method="post">
           <div class="texto-forms">
             <p>INSCREVA-SE AGORA!</p>
           </div>
         <fieldset>
-          <input type="text" class="form-control" aria-label="nome" placeholder="Nome">
-          <input type="e-mail" class="form-control" aria-label="email" placeholder="name@example.com">
-          <input type="text" class="form-control" aria-label="empresa" placeholder="Empresa">
-          <input type="number" class="form-control" aria-label="telefone" placeholder="Telefone">
+          <input type="text" class="form-control" aria-label="nome" placeholder="nome">
+          <input type="e-mail" class="form-control" aria-label="email" placeholder="e-mail">
+          <input type="text" class="form-control" aria-label="empresa" placeholder="empresa">
+          <input type="number" class="form-control" aria-label="telefone" placeholder="telefone">
         </fieldset>
 
         <button class="botao-enviar">
-          SE INSCREVA!
+          se inscreva!
         </button>
       </form>
     </div>
@@ -84,7 +90,7 @@
       <section class="frase-impacto">
         <h3 class="chamada-impacto1">NUNCA PERCA UMA NOTÍCIA!</h3>
         <hr class="linha">
-        <h2 class="chamada-impacto2">sua empresa no comando das <br>últimas tendências do <br>mercado!</h2>
+        <h2 class="chamada-impacto2">sua empresa no comando das <br><b class="bold700 purple">últimas tendências</b> do <br>mercado!</h2>
       </section>  
 
       <div class="container-a">
@@ -193,7 +199,7 @@
 
     <section class="carrossel-topicos">
       <div class="tópicos">
-        <h2 class="topicos-escolha">Tópicos de <br> <b class="sua-escolha-b">sua escolha!</b></h2>
+        <h2 class="topicos-escolha">tópicos de <br> <b class="sua-escolha-b">sua escolha!</b></h2>
         <!-- carrossel -->
         <!-- fim do carrossel -->
     </section>
@@ -203,7 +209,7 @@
         <section class="resultados-frase">
           <h3 class="frase-impacto-resultados">"MAS COMO VOCÊS PODEM NOS AJUDAR?"</h3>
           <hr class="linha-0">
-          <h2 class="frase-importante-resultados">Simples,<br> <b class="veja">veja</b> <b class="nossos-resultados">nossos resultados!</b></h2>
+          <h2 class="frase-importante-resultados">simples,<br> <b class="veja">veja</b> <b class="nossos-resultados">nossos resultados!</b></h2>
         </section>
       </div>
 
@@ -301,7 +307,7 @@
         <p class="assine-nossa-nl">assine nossa <b class="newsletter">newsletter</b> e saiba mais!</p>
       </div>
       <fieldset class="form-newsletterg">
-        <input type="e-mail" class="form-control-2" aria-label="seu e-mail" placeholder="name@example.com">
+        <input type="e-mail" class="form-control-2" aria-label="seu e-mail" placeholder="seu e-mail">
       </fieldset>
       <button class="button-assine">assine!</button>
     </form>
@@ -310,8 +316,8 @@
     <section class="empresas">
 
       <div class="frase-empresas">
-        <p><b>conheça alguns</b> dos nossos parceiros</p><br>
-        <p>e o que estão falando da gente</p>
+        <p>conheça alguns dos <b class="purple">nossos parceiros</b></p><br>
+        <p class="thin100 purple italic estaofalando">e o que estão falando da gente!</p>
         <hr class="linha">
       </div>
 
@@ -376,10 +382,12 @@
      
     <section class="quemsomos">
      <div class="container-quemsomos">
-       <img src="#" alt="imagem aleatória">
+        <p>quem somos?</p>
+       <img src="imgs/Rectangle 25.svg" alt="imagem aleatória">
        <p>criada com propósito de manter empresas e organizações sempre bem informadas, a <strong>B</strong><strong>N</strong> mantém-se sempre atualizada para manter você inteirado sobre as mais importantes notícias do Brasil e do mundo.</p>
      </div>
      <div class="container-identidade">
+        <p>qual a nossa identidade?</p>
         <p>trazer fatos totalmente relevantes para a sua empresa e a sua equipe, no principal e mais completo <strong>newsapp</strong>  do Brasil!</p>
       </div>
       <div class="container-saudacao">
@@ -390,7 +398,7 @@
     <section>
       <div class="baixe-app">
         <div class="iphone">
-          <img src="imgs/ic_baseline-facebook.svg" alt="iphone"> <!-- SUBSTITUIR O ÍCONE DEPOIS -->
+          <img src="imgs/iphone e círculo.svg" alt="iphone"> 
         </div>
         <div class="call-action-app">  
           <p class="frase1-app">BAIXE NOSSO APP!</p>
