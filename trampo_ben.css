@@ -418,13 +418,16 @@
 }
 
 .boxempresas{
-  text-align: center;
-
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: -40px;
 }
 
 .container-linha1, .container-linha2, .container-linha3{
-  size: 30%;
-
+  display: flex;
+  padding: 20px;
 }
 
 /* carrossel das empresas */
