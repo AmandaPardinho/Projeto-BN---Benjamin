@@ -8,8 +8,15 @@
     
   <link rel="stylesheet" type="text/css" href="trampo_ben.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Bootstrap --> 
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Fim Bootstrap -->
   <script src="trampo_ben.js"></script>
-
 </head>
 
 <body>
@@ -34,12 +41,19 @@
   </header>
   <main>
     <div class="content-inicial">  
+      <div>
       <section class="home">
         <div class="slogan">
-          <h1>Lead your <strong>business</strong> everyday<br> read the <strong>world</strong> today.</h1>
+          <h1>Lead your <strong class="business">business</strong> everyday<br> read the <strong class="business">world</strong> today.</h1>
         </div>
         <div class="video">
-          <a href="https://video.wixstatic.com/video/09c2ff_c0c01c2939c94d1db06de1b998c7c0a6/720p/mp4/file.mp4">Vídeo</a>
+          <video width="360" height="240" muted="true" loop="true" controls="controls" autoplay="autoplay">
+            <source src="imgs/file.mp4">
+            <object data="" width="320" height="240">
+            <embed width="320" height="240" src="imgs/file.mp4">
+            </object>
+            </video>
+          <!-- <a href="https://video.wixstatic.com/video/09c2ff_c0c01c2939c94d1db06de1b998c7c0a6/720p/mp4/file.mp4">Vídeo</a> -->
         </div>  
       </section>
     </div>
@@ -60,6 +74,8 @@
           SE INSCREVA!
         </button>
       </form>
+    </div>
+
     </div>
       <!-- fim do formulário -->
 
@@ -177,7 +193,7 @@
 
     <section class="carrossel-topicos">
       <div class="tópicos">
-        <h2 class="topicos-escolha">Tópicos a sua escolha!</h2>
+        <h2 class="topicos-escolha">Tópicos de <br> <b class="sua-escolha-b">sua escolha!</b></h2>
         <!-- carrossel -->
         <!-- fim do carrossel -->
     </section>
@@ -187,7 +203,7 @@
         <section class="resultados-frase">
           <h3 class="frase-impacto-resultados">"MAS COMO VOCÊS PODEM NOS AJUDAR?"</h3>
           <hr class="linha-0">
-          <h2 class="frase-importante-resultados">Simples,<br> <b>veja</b> <b>nossos resultados!</b></h2>
+          <h2 class="frase-importante-resultados">Simples,<br> <b class="veja">veja</b> <b class="nossos-resultados">nossos resultados!</b></h2>
         </section>
       </div>
 
@@ -248,7 +264,7 @@
               <p class="numeros-resultados"><b>50+</b></p>
             </li>
             <li>
-              <p class="descrição-resultados">portais de notícias de todos os tipos!</p>
+              <p class="descrição-resultados">portais de <br> notícias de todo tipos!</p>
             </li>
           </ul>
         </section>
@@ -259,7 +275,7 @@
               <p class="numeros-resultados"><b>20+</b></p>
             </li>
             <li>
-              <p class="descrição-resultados">recursos e funções para testar!</p>
+              <p class="descrição-resultados">recursos e <br> funções para testar!</p>
             </li>
           </ul>
         </section>
@@ -282,14 +298,14 @@
         
     <form class="formNewsletter" action="" method="post">
       <div class="frase-newsletter">
-        <p class="assine-nossa-nl">assine nossa <b>newsletter</b> e saiba mais!</p>
+        <p class="assine-nossa-nl">assine nossa <b class="newsletter">newsletter</b> e saiba mais!</p>
       </div>
       <fieldset class="form-newsletterg">
         <input type="e-mail" class="form-control-2" aria-label="seu e-mail" placeholder="name@example.com">
       </fieldset>
       <button class="button-assine">assine!</button>
     </form>
-  </div>
+    </div>
     
     <section class="empresas">
 
@@ -371,40 +387,47 @@
       </div>    
     </section>
       
-    <section class="baixe-app">
-      <div class="iphone">
-        <img src="#" alt="iphone">
-      </div>
-      <div class="call-action-app">  
-        <p class="frase1-app">BAIXE NOSSO APP!</p>
-        <p class="frase2-app">lead your business today, read the world everyday!</p>
-        <p class="frase3-app">Informações do mundo dos negócios e da publicidade com inteligência e foco no que realmente interessa.</p>
-      </div>
-      <div class="badges">
-        <img src="#" alt="QR code" class="badge-qr">
-        <img src="#" alt="Google Play" class="badge-google">
-        <img src="#" alt="App Store" class="badge-apple">
-      </div>
-      <div class="frase4-app">
-        <p>disponível para download agora!</p>
+    <section>
+      <div class="baixe-app">
+        <div class="iphone">
+          <img src="imgs/ic_baseline-facebook.svg" alt="iphone"> <!-- SUBSTITUIR O ÍCONE DEPOIS -->
+        </div>
+        <div class="call-action-app">  
+          <p class="frase1-app">BAIXE NOSSO APP!</p>
+          <p class="frase2-app">lead your business today, read the world everyday!</p>
+          <p class="frase3-app">Informações do mundo dos negócios e da publicidade com inteligência e foco no que realmente interessa.</p>
+        </div>
+        <div class="badges">
+          <img src="#" alt="QR code" class="badge-qr">
+          <img src="#" alt="Google Play" class="badge-google">
+          <img src="#" alt="App Store" class="badge-apple">
+        </div>
+        <div class="frase4-app">
+          <p>disponível para download agora!</p>
+        </div>
       </div>
     </section>
      
-    <section class="formfinal">
-      <div id="forms" class="forms">
+    <section class="forms-inscrever">
+      <div class="forms-final">
         <form method="post">
           <div class="texto-forms">
-            <p>INSCREVA-SE AGORA!</p>
+            <p class="texto-pt1">quer ter o <strong class="b">b</strong><strong class="n">n</strong> na sua empresa?</p><br>
+            <p class="texto-pt2">entre em contato com nosso time comercial</p>
           </div>
-          <fieldset>
-            <input type="text" class="form-control" aria-label="nome" placeholder="Nome">
-            <input type="e-mail" class="form-control" aria-label="email" placeholder="name@example.com">
-            <input type="text" class="form-control" aria-label="empresa" placeholder="Empresa">
-            <input type="number" class="form-control" aria-label="telefone" placeholder="Telefone">
+          <fieldset class="container-txt">
+            <div class="txt-roxo">
+              <input type="text" aria-label="nome" placeholder="Nome">
+              <input type="e-mail" aria-label="email" placeholder="name@example.com">
+            </div>
+            <div class="txt-verde">
+              <input type="text" aria-label="empresa" placeholder="Empresa">
+              <input type="number" aria-label="telefone" placeholder="Telefone">
+            </div>
           </fieldset>
 
-          <button class="botao-enviar">
-            SE INSCREVA!
+          <button class="btn-inscrever">
+            INSCREVA-SE!
           </button>
         </form>
       </div>
@@ -423,7 +446,7 @@
         <p><strong>Business News</strong>: aplicativo de market information que monitora em tempo real, todos os tipos de mídias e veículos de comunicação, para levar informações do mundo dos negócios e da publicidade, com inteligência e foco no que realmente interessa.</p>
       </div> 
       <div class="container-logo-abreviado">
-        <img src="#" alt="logo bn abreviado"> 
+        <img src="imgs/bnzinho.svg" alt="logo bn abreviado"> 
       </div>
       <div class="container-menuL">   
         <ul class="menu-esquerda">
@@ -435,7 +458,7 @@
           <li>Login</li>
         </ul>
       </div> 
-      <div> 
+      <div class="container-menuD"> 
         <ul class="menu-direita">
           <li>Trabalhe Conosco</li>
           <li>Carreiras</li>
