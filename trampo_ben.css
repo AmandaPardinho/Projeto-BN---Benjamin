@@ -10,6 +10,18 @@
     color: #5F328C;
   }
 
+  .verde{
+    color: #5cbab3;
+  }
+
+  .verdeclaro{
+    color: #9DF6C4;
+  }
+
+  .font8px{
+    font-size: 8px;
+  }
+
   /* Thin 100 */
   .thin100{
     font-family: 'Roboto';
@@ -52,8 +64,16 @@
     font-size: 24px;
     line-height: 27px;
     text-align: center;
-    color: #5F328A;
   }
+
+    /* Medium 500 menor */
+    .medium500menor{
+      font-family: 'Roboto';
+      font-style: italic;
+      font-weight: 500;
+      line-height: 15px;
+      text-align: center;
+    }
 
   /* Bold 700 */
   .bold700{
@@ -484,20 +504,111 @@ main{
 /*INÍCIO - quemsomos*/
 
   .quemsomos{
-    height: 400px;
+    height: 457px;
     background-color: #9DF6C4;
+    padding-top: 10px;
   }
 
+  .t-quemsomos{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
 
+  .container-quemsomos{
+    display: flex;
+    background-color: #FFF;
+    padding: 10px;
+    margin-top: 10px;
+  }
 
+  .mão{
+    padding: 10px;
+  }
 
+  .t-criada{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px;
+  }
+
+  .container-identidade{
+    background: linear-gradient(90deg, #5F328C 50%, #9DF6C4 50%);
+    height: 200px;
+  }
+
+  .t-qualidentidade{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 10px;
+  }
+
+  .retangulobranco{
+    width: 217px;
+    height: 108px;
+    left: 52px;
+    top: 236px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 78px;
+  }
+
+  .t-trazerfatos{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .container-saudacao{
+    background: linear-gradient(90deg, #9DF6C4 50%, #FFF 50%);
+    height: 72px;
+  }
+
+  .retanguloroxo{
+    width: 301px;
+    height: 39px;
+    background: #5F328C;
+    border-radius: 10px;
+    margin-left: 40px;
+  }
+
+  .saudacao{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 7px;
+  }
 
 /* FIM DA SECTION - quemsomos*/
 
-/*INÍCIO BAIXAR-APP*/
+/*INÍCIO - BAIXAR-APP*/
+
+.baixar{
+  height: 400px;
+  background-color: #642c93;
+  margin-top: -13px;
+}
 
 .baixe-app{  
-  background-color: #642c93;
   height: 15rem;
 }
 
@@ -512,7 +623,13 @@ main{
   margin-top:5%;
 }
 
+.call-action-app{
+  margin-top: -40%;
+}
+
 /*FORMULÁRIO 2*/
+
+
 .forms-final{
   border: none;
   margin: 3rem;
