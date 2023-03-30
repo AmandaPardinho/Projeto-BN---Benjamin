@@ -16,5 +16,3 @@ function myFunction() {
       }
     }
   }
-
-// BUTTON FORM 1 - Alert //

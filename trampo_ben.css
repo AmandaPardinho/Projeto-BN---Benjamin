@@ -91,7 +91,8 @@
 
 body{
   font-family: 'Roboto', 'sans-serif';
-  
+  justify-content: center;
+  align-items: center;
 }
 
 header{
@@ -102,6 +103,26 @@ header{
 main{
   margin-top: 120px;
 }
+
+/* links e cores */
+
+  a:link {
+    text-decoration: none;
+    color: #7138aa;
+  }
+  a:visited { 
+    text-decoration: none;
+  }
+  a:hover { 
+    text-decoration: none; 
+    font-style: italic;
+    color: #5CBAB3;
+  }
+  a:active { 
+    text-decoration: none; 
+  }
+
+/* fim dos links e cores */
 
 .logo1{
     display: flex;
@@ -129,9 +150,10 @@ main{
     border: none;
     color: #5F328C;
     padding: 16px;
-    background-color: white;
+    background-color: #FFF;
     font-family: inherit;
     text-decoration: none;
+    letter-spacing: 0.5em;
   }
 
   .dropdown{
@@ -147,16 +169,20 @@ main{
     display: none;
     position: absolute;
     overflow: hidden;
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.900);
     color: #fff;
     min-width: 375px;
     max-height: 500px;
     padding: 16px;
+    
   }
 
   .show{
     display: block;
     overflow: auto;
+    color: #4d2674;
+    text-align: justify;
+    letter-spacing: 0.2em;
   }
 
   #forms{
@@ -299,8 +325,9 @@ main{
     /* border-style: solid;
     border-width: 2px;
     border-color: red; */
+    text-align: center;
     width: 100%;
-    height: 24rem;
+    height: 600px;
     padding: 0rem;
     background-color: #89FBBB;
   }
@@ -321,6 +348,13 @@ main{
   .veja{
     color: #89FBBB;
   }
+
+/* INÍCIO - carrossel */
+
+  
+
+/* FIM - carrossel */
+
 
   .nossos-resultados{
     font-weight: bold;
