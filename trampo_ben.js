@@ -2,8 +2,17 @@ function myFunction() {
     document.getElementById("drop").classList.toggle("show");
 }
 
+
+//header overlay transição//
+
+
+
+//alerta de formulário 1//
+function openNav(){alert("Formulário enviado com sucesso!")}
+
+
   
-  // Close the dropdown menu if the user clicks outside of it
+// Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");

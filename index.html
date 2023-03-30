@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Business News - lead your business everyday, read the world today.</title>
   
+  <link rel="import" href="carrossel.html">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" type="text/css" href="trampo_ben.css">
 
@@ -18,6 +19,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <!-- Fim Bootstrap -->
   <script src="trampo_ben.js"></script>
+  <link rel="icon" href="imgs/bnzinho.svg">
 </head>
 
 <body>
@@ -76,7 +78,7 @@
           <input type="number" class="form-control" aria-label="telefone" placeholder="telefone">
         </fieldset>
 
-        <button type="button" class="botao-enviar">
+        <button type="button" class="botao-enviar" onclick="openNav()">
           se inscreva!
         </button>
       </form>
@@ -98,7 +100,7 @@
           <section class="vantagens">
             <ul class="item1">
               <li class="simbolo-vantagem">
-                <img src="/imgs/vantagemcomp.svg" alt="bolinha">
+                <img src="imgs/vantagemcomp.svg" alt="bolinha">
               </li>
               <li class="titulo-vantagem">
                 <p><strong>Vantagem Competitiva</strong></p>
@@ -114,7 +116,7 @@
           <section class="interesses">
             <ul class="item2">
               <li class="simbolo-interesses">
-                <img src="/imgs/interesses.svg" alt="bolinha">
+                <img src="imgs/interesses.svg" alt="bolinha">
               </li>
               <li class="titulo-interesses">
                 <p><strong>Interesses</strong></p>
@@ -132,7 +134,7 @@
           <section class="saiba-antes">
             <ul class="item3">
               <li class="simbolo-saiba-antes">
-                <img src="/imgs/saibaantes.svg" alt="bolinha">
+                <img src="imgs/saibaantes.svg" alt="bolinha">
               </li>
               <li class="titulo-saiba-antes">
                 <p><strong>Saiba antes!</strong></p>
@@ -148,7 +150,7 @@
         <section class="calendario">
           <ul class="item4">
             <li class="simbolo-calendario">
-              <img src="/imgs/calendario.svg" alt="bolinha">
+              <img src="imgs/calendario.svg" alt="bolinha">
             </li>
             <li class="titulo-calendario">
               <p><strong>Calendário</strong></p>
@@ -166,7 +168,7 @@
           <section class="aportes">
             <ul class="item5">
               <li class="simbolo-aporte">
-                <img src="/imgs/aportes.svg" alt="bolinha">
+                <img src="imgs/aportes.svg" alt="bolinha">
               </li>
               <li class="titulo-aporte">
                 <p><strong>Aportes</strong></p>
@@ -182,7 +184,7 @@
           <section class="entre-outros">
             <ul class="item6">
               <li class="simbolo-entre-outros">
-                <img src="/imgs/entreoutros.svg" alt="bolinha">
+                <img src="imgs/entreoutros.svg" alt="bolinha">
               </li>
               <li class="titulo-entre-outros">
                 <p><strong>Entre outros!</strong></p>
@@ -314,7 +316,7 @@
       <fieldset class="form-newsletterg">
         <input type="e-mail" class="form-control-2" aria-label="seu e-mail" placeholder="seu e-mail">
       </fieldset>
-      <button class="button-assine">assine!</button>
+      <button class="button-assine" onclick="openNav()">assine!</button>
     </form>
     </div>
     
@@ -347,7 +349,7 @@
             <ul class="logo-empresas-linha2">
 
               <li class="brf">
-                <img src="/imgs/brf.svg" alt="brf">
+                <img src="imgs/brf.svg" alt="brf">
               </li>
 
               <li class="nokia">
@@ -379,9 +381,11 @@
         </div>
 
       <!-- carrossel de depoimentos -->
-      <div>
-        
+
+      <div class="carousel-container">
+        <iframe src="carrossel.html"></iframe>
       </div>
+      
       <!-- fim do carrossel de depoimentos --> 
     </section>
      
@@ -445,7 +449,7 @@
             </div>
           </fieldset>
 
-          <button class="btn-inscrever">
+          <button type="button" class="btn-inscrever" onclick="openNav()">
             <p class="inscrevabnt">inscreva-se!</p>
           </button>
         </form>
