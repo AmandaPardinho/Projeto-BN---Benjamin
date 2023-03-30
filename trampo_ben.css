@@ -370,6 +370,7 @@ main{
     padding-right: 46px;
   }
 
+
   .frase-final-resultados{
     text-align: center;
   }
@@ -418,8 +419,9 @@ main{
   .numeros-resultados{
     color: #9df6c4;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 30px;
     padding-right: 1px;
+    margin-left: 10px;
   }
 
   .descrição-resultados{
@@ -427,16 +429,23 @@ main{
     font-size: 16px;
     line-height: 20px;
     font-weight: 900;
+    margin-left: 10px;
   }
 
   .tudo-isso{
     color: #9df6c4;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
   }
 
   .frase-impacto-resultados{
     color: #ffffff;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 9px;
   }
 
   .frase-importante-resultados{
@@ -447,12 +456,18 @@ main{
 
   .newsletter{
     color: #9df6c4;
+    font-weight: 400;
+    font-style: italic;
   }
 
   .um-app{
     font-size: 32px;
     color: #ffffff;
     font-style: italic;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
   }
 
 
@@ -602,121 +617,203 @@ main{
 
 /*INÍCIO - BAIXAR-APP*/
 
-.baixar{
-  height: 400px;
-  background-color: #642c93;
-  margin-top: -13px;
-}
+  .baixar{
+    height: 180px;
+    background-color: #642c93;
+  }
 
-.baixe-app{  
-  height: 15rem;
-}
+  .baixe-app{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: stretch;
+    margin-left: 5px;
+  }
 
-.iphone{
-  width: 5rem;
-  height: 10rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  padding: 1rem;
-  margin-left: 10%;
-  margin-top:5%;
-}
+  .iphone{
+    width: 210px;
+    height: 210px;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
 
-.call-action-app{
-  margin-top: -40%;
-}
+  .call-action-app{
+    margin-top: -52%;
+    margin-left: 41%;
+    width: 180px;
+  }
 
-/*FORMULÁRIO 2*/
+  .frase1-app{
+    font-family: 'Roboto';
+    font-style: bold italic;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #9DF6C4;
+    margin-left: -17%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .frase2-app{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 9px;
+    margin-left: -3%;
+  }
+
+  .frase3-app{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    text-align: right;
+    margin-left: -2%;
+    letter-spacing: 0.05em;
+  }
+
+  .badges{
+    margin-left: 43%;
+    margin-top: -44%;
+  }
+
+  .badge-qr{
+    width: 68px;
+    height: 68px;
+  }
+
+  .badge-google{
+    width: 91px;
+    margin-top: 7px;
+  }
+
+  .badge-apple{
+    width: 91px;
+    margin-top: -65px;
+    margin-left: 72px;
+  }
+
+  .frase4-app{
+    font-family: 'Roboto';
+    color: #FFF;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    margin-left: 40%;
+    margin-top: -17%;
+  }
 
 
-.forms-final{
-  border: none;
-  margin: 3rem;
-}
+/*FIM SECTION - BAIXAR-APP*/
 
-.texto-pt1{
-  font-size: 1.25rem;
-  margin-top: -7%;
-  margin-bottom: -4%;
-}
+/*FORMULÁRIO FINAL*/
 
-.b{
-  font-weight: bold;
-  color: #642c93;
-}
+  .forms-final{
+    border: none;
+    margin: 3rem;
+  }
 
-.n{
-  font-weight: bold;
-  color: #9df6c4;
-}
+  .texto-pt1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000;
+  }
 
-.texto-pt2{
-  font-size: 0.8rem;
-  margin-bottom: -4%;
-}
+  .b{
+    font-weight: bold;
+    color: #642c93;
+  }
 
-.container-txt{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  height: 7rem;
-}
+  .n{
+    font-weight: bold;
+    color: #5CBAB1;
+  }
 
-.txt-roxo{
-  display: block;
-  position: absolute;
-  top: 7%;
-}
+  .texto-pt2{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-top: -7%;
+  }
 
-.txt-roxo input{
-  margin-top: 7%;
-  width: 40%;
-  height: 20px;
-  font-size: 1rem;
-  padding-left: 20px;
-  border-color: #642c93;
-  border-radius: 5px;
-}
+  .container-txt{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 7rem;
+    margin-top: -7%;
+  }
 
-.txt-verde{
-  display: block;
-  position: absolute; 
-  top: 7%; 
-}
+  .txt-roxo{
+    display: block;
+    position: absolute;
+    top: 7%;
+  }
 
-.txt-verde input{
-  margin-top: 7%;
-  width: 40%;
-  height: 20px;
-  font-size: 1rem;
-  padding-left: 20px;
-  border-color: #9df6c4;
-  border-radius: 5px;
-  margin-left: 56%;
-}
+  .txt-roxo input{
+    margin-top: 7%;
+    width: 40%;
+    height: 20px;
+    font-size: 1rem;
+    padding-left: 20px;
+    border-color: #642c93;
+    border-radius: 5px;
+  }
 
-.btn-inscrever{
-  background-color: #9df6c4;
-  color: #642c93;
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: center;
-  margin-left: 27%;
-  border-radius: 1rem;
-  border: none;
-  padding: 0.5rem;
-  box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
-}
+  .txt-verde{
+    display: block;
+    position: absolute; 
+    top: 7%; 
+  }
+
+  .txt-verde input{
+    margin-top: 7%;
+    width: 40%;
+    height: 20px;
+    font-size: 1rem;
+    padding-left: 20px;
+    border-color: #9df6c4;
+    border-radius: 5px;
+    margin-left: 56%;
+  }
+
+  .btn-inscrever{
+    background-color: #9df6c4;
+    color: #642c93;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 27%;
+    border-radius: 1rem;
+    border: none;
+    padding: 8px;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  }
 
 /*FIM FORMULÁRIO 2*/
 
 /*INÍCIO FOOTER*/
 
   .container-logos{
-  display: flex;
-  flex-direction: column;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -10%;
   }
 
   .twitter{
@@ -775,17 +872,24 @@ main{
 
   .fundo-footer{
     background-color: #9DF6C4;
-    border-radius: 3rem 3rem 0 0;
-    padding: 0rem 8rem 5rem 8rem;
+    border-radius: 20px 20px 0 0;
+    padding: 0rem 9rem 3rem 8rem;
   }
 
   .container-frase-footer{
     margin-top: 67%;
-    margin-left: -100%;
-    padding: 1rem;
-    width: 20rem;
+    margin-left: -60%;
+    padding: 5px;
+    width: 230px;
     text-align: center;
     font-size: 0.8rem;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 4px;
+    line-height: 4px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
   .container-frase-footer strong{
@@ -799,7 +903,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    margin-left: -18%;
+    margin-left: 12%;
   }
 
   .container-menuL{
@@ -807,11 +911,17 @@ main{
     position: absolute;
     text-align: center;
     color: #642c93;
-    font-weight: bold;
-    font-size: 0.7rem;
     padding: 2rem;
     margin-top: -30%;
     margin-left: -35%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
   .container-menuD{
@@ -819,11 +929,17 @@ main{
     position: absolute;
     text-align: center;
     color: #642c93;
-    font-weight: bold;
-    font-size: 0.7rem;
     padding: 1rem;
     margin-top: -26%;
-    margin-left: 26%;
+    margin-left: 30%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
   .container-razao-social{
@@ -831,11 +947,17 @@ main{
     position: absolute;
     text-align: center;
     color: #642c93;
-    font-weight: bold;
     font-size: 0.6rem;
     padding: 1rem;
-    margin-top: 3%;
-    margin-left: -35%;
+    margin-top: -3%;
+    margin-left: -28%;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 6px;
+    line-height: 7px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
 /*FIM FOOTER*/
